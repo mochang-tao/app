@@ -1,0 +1,90 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "uni-app"
+		}
+	}    ,{
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cate/cate",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/world/world",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"list": [
+			{
+			"pagePath":"pages/index/index",
+			"text": "主页",
+			"iconPath": "static/tab_icon/home.png",
+			"selectedIconPath": "static/tab_icon/home.png"
+			},
+			{
+			"pagePath":"pages/world/world",
+			"text": "世界",
+			"iconPath": "static/tab_icon/world.png",
+			"selectedIconPath": "static/tab_icon/world.png"
+			},
+			{
+			"pagePath":"pages/home/home",
+			"text": "消息",
+			"iconPath": "static/tab_icon/news.png",
+			"selectedIconPath": "static/tab_icon/news.png"
+			},
+			{
+			"pagePath":"pages/my/my",
+			"text": "个人中心",
+			"iconPath": "static/tab_icon/user.png",
+			"selectedIconPath": "static/tab_icon/user.png"
+			}
+		]
+	}
+}
